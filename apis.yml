@@ -1,8 +1,15 @@
 aid: cloudastructure-inc
 name: CloudAStructure Inc
-description: CloudAStructure Inc is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Cloudastructure Inc. is a cloud-based AI video surveillance and remote
+  guarding company that combines cloud infrastructure, computer-vision machine learning,
+  and live human monitoring to detect and deter crime in real time. Its platform offers
+  license plate recognition, facial recognition, motion-zone detection, and cloud
+  storage with instant playback across multifamily, commercial, construction, storage,
+  logistics, and campus properties. As of this profile the company operates a marketing
+  and product website with no public developer API, documentation portal, or OpenAPI
+  surface; the company has stated an intent to offer an open API platform for integrations
+  in the future. This API Evangelist profile is a portfolio-lead stub enriched with
+  domain-security probe data and verified public link properties.'
 url: https://raw.githubusercontent.com/api-evangelist/cloudastructure-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/610476b7bda1940095409800/62d6ded4381a1b1e550ac16f_CloudaStructureLogo.png
 tags:
 - Company
+- Video Surveillance
+- Physical Security
+- Artificial Intelligence
+- Computer Vision
+- Remote Guarding
+- Cloud Security
+- Facial Recognition
+- License Plate Recognition
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cloudastructure-inc-domain-security.yml
 - type: Website
   url: https://cloudastructure.com
+- type: Blog
+  url: https://www.cloudastructure.com/blog-news
+- type: PrivacyPolicy
+  url: https://www.cloudastructure.com/privacy
+- type: Support
+  url: https://www.cloudastructure.com/contact/contact
+- type: FAQ
+  url: https://www.cloudastructure.com/faq
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
