@@ -1,5 +1,5 @@
 aid: cloudastructure-inc
-name: CloudAStructure Inc
+name: CloudAStructure
 description: 'Cloudastructure Inc. is a cloud-based AI video surveillance and remote
   guarding company that combines cloud infrastructure, computer-vision machine learning,
   and live human monitoring to detect and deter crime in real time. Its platform offers
@@ -48,7 +48,7 @@ tags:
 - Video Surveillance
 - Physical Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Remote Guarding
 - Cloud Security
 - Facial Recognition
@@ -63,6 +63,7 @@ tags_raw:
 - Cloud Security
 - Facial Recognition
 - License Plate Recognition
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -87,3 +88,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: CloudAStructure Inc
